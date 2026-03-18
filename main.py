@@ -28,7 +28,7 @@ def update_google_sheet(inventory_dict):
         client = gspread.authorize(creds)
         
         # 시트 URL 확인
-        sheet_url = "https://docs.google.com/spreadsheets/d/1Ij3YEV2rcVr6L3xHlZ_fDvOxXtMAOHtpjQCLNyVivmU/edit"
+        sheet_url = "https://docs.google.com/spreadsheets/d/1XEZj9FCbJKP5Gt9ZquK09meDgVHcbZGqvgleFOaBk2U/edit"
         doc = client.open_by_url(sheet_url)
         worksheet = doc.get_worksheet(0)
 
